@@ -1,0 +1,78 @@
+* { margin: 0; 
+    padding: 0; } /*Si funcionó, vamos a experimentar*/
+
+    #header {
+        
+      background-color: #ffffff; 
+       
+        
+  
+    }
+     
+    
+
+
+    #header-img {
+        position: relative;
+        top: 15px;
+        bottom: 1px;
+        left:1190px;
+    }
+    
+    .general{
+        position: relative;
+        bottom: 45px;
+        left: 70px;
+        
+    }
+
+    .general2 li{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        display: inline;
+        margin:15px;
+    }
+
+
+
+      nav {
+        background-color: rgb(22, 206, 212);  
+        padding:15px;
+         
+      }
+    
+      ul {
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+     
+
+      #button li {
+        display:inline;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 6px;
+        border:0px solid  rgba(9, 219, 226, 0.507);
+        margin:58px;
+        background-color:rgb(22, 206, 212); 
+        
+}
+
+      #button li:hover 
+        {
+          background: rgb(247, 104, 8);
+        }
+      
+      .java, .web, .code, .maka, .inn
+      {
+          color: rgb(255, 255, 255);
+      }  
+
+      a:link {
+        font-size:20px;
+        color:hsl(187, 86%, 48%);
+        text-decoration:none;
+}

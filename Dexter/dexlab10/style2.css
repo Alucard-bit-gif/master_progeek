@@ -102,62 +102,27 @@
         color: rgb(99, 98, 98);
       }   
 
-      #uno, #dos
-       {
-        padding: 15px;
-        border:6px;
-        border-bottom:6px solid grey; 
-        border-left: 1px solid gray; 
-        border-top: 1px solid gray;
-        border-right: 1px solid gray;
-        border-radius: 10px;
-        margin:0px;
-        color:aqua;
-        font-size: 22px;
-        background-color: rgb(255, 255, 255);
-        text-align: center;
-        position: relative;
-        left: 200px;
-        }
-        
-        #dos {
-        
-        left: 400px;
-        bottom: 81px;
-        }
-            
-        #tres {
-            padding: 15px;
-            border:6px;
-            border-bottom:6px solid grey; 
-            border-left: 1px solid gray; 
-            border-top: 1px solid gray;
-            border-right: 1px solid gray;
-            border-radius: 10px;
-            margin:0px;
-            color:aqua;
-            font-size: 22px;
-            background-color: rgb(255, 255, 255);
-            text-align: center;
-            position: relative;
-            left: 830px;
-            bottom: 143px;   
-            }
+      
 
-        .cuatro {
-            padding: 15px;
-            border:6px;
-            border-bottom:6px solid grey; 
-            border-left: 1px solid gray; 
-            border-top: 1px solid gray;
-            border-right: 1px solid gray;
-            border-radius: 10px;
-            margin:0px;
-            color:aqua;
-            font-size: 22px;
-            background-color: rgb(255, 255, 255);
-            text-align: center;
-            position: relative;
-            left: 1030px;
-            bottom: 223px;   
-            }
+            .copy
+{
+    margin-top: 400px;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.copy-text
+{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.warning{
+    text-align: left;
+    margin-top: -130px;
+    margin-left: 100px;
+    font-size: 90px;
+}

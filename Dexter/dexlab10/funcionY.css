@@ -1,0 +1,375 @@
+h1
+{
+    text-align: center;
+    color: rgb(22, 190, 86);
+}
+
+.row, .row2, .row3, .row4, .row5, .row6, .row7, .row8, .row9, .row10, .row11, .row12
+{
+    
+    padding-top: 10px;
+    width: 30%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+    border-top: 1px solid;
+    border-bottom:8px solid rgb(16, 206, 180);
+    margin-left: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.row2
+{
+    margin-left: 750px;
+    margin-bottom: 5px;
+    margin-top: -460px;
+    font-size: 21.34px;
+    
+}
+
+
+#Boton
+{
+    position: relative;
+    left: 155px;
+}
+
+#base, #altura
+
+{
+    position: relative;
+    left: 90px;
+}
+
+
+.xi
+{
+    position: relative;
+    left: 72px;
+}
+
+.area, .area3
+{
+    position: relative;
+    left: 90px;
+}
+
+
+
+#radio, .area2 , .area4, #metros
+{
+    position: relative;
+    left: 80px;
+}
+
+.yi
+
+{
+    position: relative;
+    left: 86px;
+}
+
+#base1, #altura1
+{
+    position: relative;
+    left: 90px;
+}
+
+.zi
+{
+    position: relative;
+    left: 70px;
+}
+
+.alfa
+{
+    position: relative;
+    left: 77px;
+}
+
+.row4
+
+{
+    margin-left: 750px;
+    margin-bottom: 5px;
+    margin-top: -590px;
+    font-size: 20px;
+    
+}
+
+#precio, #horas, #mints, #totalarea5
+
+{
+    position: relative;
+    left: 100px;
+}
+
+
+.valor
+{
+    position: relative;
+    left: 95px;
+}
+
+.beta
+{
+    position: relative;
+    left: 145px;
+}
+
+.zeta
+{
+    position: relative;
+    left: 145px;
+}
+
+.X60
+{
+    position: relative;
+    left: 145px;
+}
+
+#Boton5
+{
+    position: relative;
+    left: 159px;
+}
+
+ .row6, .row8
+ {
+    margin-left: 750px;
+    margin-bottom: 5px;
+    margin-top: -740px;
+    font-size: 20px;
+    
+}
+
+.row10, .row12
+
+{
+    margin-left: 750px;
+    margin-bottom: 5px;
+    margin-top: -660px;
+    font-size: 20px;
+    
+}
+
+
+#boton7{
+    position: relative;
+    left: 50px;
+}
+
+
+#GeekBack
+
+{
+
+    position: relative;
+    left:125px;
+    bottom: 1050px;
+
+}
+
+.row8
+{
+    margin-top: -958px;
+}
+
+.kilom
+
+{
+   position: relative;
+   left: 120px;
+}
+
+#distn, #precioK, #totalarea8, #totalarea9, #distance, #speed
+{
+    position: relative;
+    left: 95px;
+}
+.Costok 
+{
+    position: relative;
+    left:115px;
+}
+
+.kilomt, .velozK
+
+{
+    position: relative;
+    left: 115px;
+}
+
+.X99
+{
+
+    position: relative;
+    left: 115px;
+}
+
+.celminutes, .costminutes
+{
+
+    position: relative;
+    left: 120px;
+
+}
+
+.X100
+
+{
+
+    position: relative;
+    left: 133px;
+
+}
+
+
+#twominutes, #tomidnight, #totalarea10, #kilowatts, #costwatts, #totalarea11, 
+#SuperX, #PriceX, #totalarea12
+
+{
+    position: relative;
+    left: 80px;
+}
+
+.row11
+{
+    margin-top: 25px;
+}
+
+.kilovatios, .chemicalX
+
+{
+
+    position: relative;
+    left: 105px;
+
+}
+
+ .X111
+
+{
+
+    position: relative;
+    left:135px;
+
+}
+
+.valor_kw
+
+{
+
+    position: relative;
+    left: 155px;
+
+}
+
+.precioDesc
+
+{
+
+    position: relative;
+    left: 90px;
+
+}
+
+
+.X122
+
+{
+
+    position: relative;
+    left: 145px;
+
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.row13
+
+{
+    
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 30%;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+    border-top: 1px solid;
+    border-bottom:8px solid rgb(16, 206, 180);
+    margin-left: 50px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#Ahorro
+
+{
+    margin-left: 100px;
+}
+
+.X14
+
+{
+    margin-left: 900px;
+    margin-top: -350px;
+    color: green;
+    
+}
+
+.salario
+{
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: lightseagreen;
+}
+
+.salarioX14
+{
+    margin-left: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: lightseagreen;
+}
+
+#BotonX14
+{
+    margin-left: 40px;
+}
+
+.row15
+
+{
+    
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 60%;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(122, 122, 122);
+    border-top: 1px solid;
+    border-bottom:8px solid rgb(16, 206, 180);
+    margin-left: 250px;
+    padding: 10px;
+    text-align: justify;
+}
+
+section
+
+{
+    margin-top: 20px;  
+    background-image: url('https://previews.123rf.com/images/ogonkova/ogonkova1903/ogonkova190300007/118575067-cheque-check-chequebook-template-guilloche-pattern-with-abstract-line-watermark-background-hi-detail.jpg'); 
+    height: 500px;
+    opacity: 0.5;
+}
+
+.viaticos
+{
+    color: rgb(5, 4, 80);
+}
+/*Archivo para funciones a entregar miércoles*/

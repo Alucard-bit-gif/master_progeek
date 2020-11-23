@@ -368,6 +368,7 @@
     background-color: black;
     color: white;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .copy-text
@@ -378,7 +379,7 @@
 
 .warning{
     text-align: left;
-    margin-top: -130px;
+    margin-top: -150px;
     margin-left: 100px;
     font-size: 90px;
 }

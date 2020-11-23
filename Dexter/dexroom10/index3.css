@@ -106,7 +106,7 @@
 
             .copy
 {
-    margin-top: 100px;
+    margin-top: 0px;
     font-size: 25px;
     text-align: center;
     background-color: black;
@@ -122,7 +122,7 @@
 
 .warning{
     text-align: left;
-    margin-top: -130px;
+    margin-top: -150px;
     margin-left: 100px;
     font-size: 90px;
 }

@@ -4,14 +4,9 @@
     #header {
         
       background-color: #ffffff; 
-       
-        
-  
+
     }
      
-    
-
-
     #header-img {
         position: relative;
         top: 15px;
@@ -32,6 +27,14 @@
         margin:15px;
     }
 
+    .general2:hover {
+      color: hsl(187, 86%, 48%);
+    }
+
+    .inicio,  .nosotros, .proyectos, .blog, .contacto
+    {
+      color:hsl(187, 86%, 48%);
+    }
 
 
       nav {

@@ -1,0 +1,139 @@
+* { margin: 0; 
+    padding: 0; } /*Si funcionó, vamos a experimentar*/
+
+    #header {
+        
+      background-color: #ffffff; 
+      margin-right: 100px;
+      margin-left: -10px;
+
+    }
+     
+    #header-img {
+        position: relative;
+        top: 15px;
+        bottom: 1px;
+        left:1190px;
+    }
+    
+    .general{
+        position: relative;
+        bottom: 45px;
+        left: 70px;
+        
+    }
+
+    .general2 li{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        display: inline;
+        margin:15px;
+    }
+
+    .general2:hover {
+      color: hsl(187, 86%, 48%);
+    }
+
+    .inicio,  .nosotros, .proyectos, .blog, .contacto
+    {
+      color:hsl(187, 86%, 48%);
+    }
+
+    nav {
+        background-color: rgb(22, 206, 212);  
+        padding:15px;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-bottom: 15px;
+         
+      }
+    
+      ul {
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }     
+
+      #button li {
+        display:inline;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 6px;
+        border:0px solid  rgba(9, 219, 226, 0.507);
+        margin:58px;
+        background-color:rgb(22, 206, 212); 
+        
+        
+}
+
+      #button li:hover 
+        {
+          background: rgb(247, 104, 8);
+        }
+      
+      .java, .web, .code, .maka, .inn
+      {
+          color: rgb(255, 255, 255);
+          font-size:20px;
+      }  
+
+      a:link {
+        font-size:20px;
+        color:hsl(187, 86%, 48%);
+        text-decoration:none;
+     }
+
+     
+     h2 {
+    
+        color: rgb(255, 94, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px; 
+        font-weight: bolder; 
+    }
+
+    p{
+        text-align: center;
+        margin-top: 5px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #projects{
+        
+        background-color:rgba(221, 133, 18, 0.9);
+        margin-top: 500px;
+    }
+
+    .us{
+
+        margin: 100px 60px 60px 220px;
+        float: left;
+        border-color: orangered;
+        border-width: 6px;
+        border-style: solid;
+        border-radius: 10%;
+    
+    }
+    
+    .us-text{
+        margin: 100px 60px 160px 20px;
+        float: left;
+        border-color: rgb(255, 255, 255);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 2%;
+        height: 208px;
+        width: 550px;
+    }
+    
+    .us-text-line
+    {
+        margin: 2px 20px 20px 20px;
+        text-align: justify;
+        font-family:Arial, Helvetica, sans-serif;
+    }

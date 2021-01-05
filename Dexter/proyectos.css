@@ -103,17 +103,18 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    #projects{
+    #proyectos{
         
-        background-color:rgba(221, 133, 18, 0.9);
-        margin-top: 500px;
+        background:rgba(196, 198, 199, 0.233);
+        margin-top: 50px;
+        height: 590px;
     }
 
     .us{
 
-        margin: 100px 60px 60px 220px;
+        margin: 199px 60px 120px 150px;
         float: left;
-        border-color: orangered;
+        border-color: rgb(182, 37, 146);
         border-width: 6px;
         border-style: solid;
         border-radius: 10%;
@@ -121,14 +122,10 @@
     }
     
     .us-text{
-        margin: 100px 60px 160px 20px;
+        margin: 120px 60px 160px 20px;
         float: left;
-        border-color: rgb(255, 255, 255);
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 2%;
-        height: 208px;
-        width: 550px;
+        height: 255px;
+        width: 750px;
     }
     
     .us-text-line
@@ -136,4 +133,68 @@
         margin: 2px 20px 20px 20px;
         text-align: justify;
         font-family:Arial, Helvetica, sans-serif;
+        font-size: inherit;
     }
+
+    h3
+    {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: left;
+      font-size: 30px;
+      color: rgb(243, 8, 243);
+      padding-bottom: 25px;
+      padding-left: 20px;
+      font-weight: bolder;
+    }
+
+    .temas{
+      padding-left: 50px;
+    }
+
+    #proyectos2{
+        
+      background:#ffffff;
+      margin-top: 50px;
+      height: 590px;
+  }
+
+  .usa{
+
+    margin: 180px 120px 120px 0px;
+    float: right;
+    border-color: rgba(41, 9, 226, 0.842);
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 10%;
+
+  }
+
+  .usa-text{
+    margin: 120px 0px 60px 120px;
+    float: left;
+    height: 255px;
+    width: 750px;
+  }
+
+  .copy
+{
+    margin-top: 0px;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.copy-text
+{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.warning{
+    text-align: left;
+    margin-top: -130px;
+    margin-left: 100px;
+    font-size: 90px;
+ }

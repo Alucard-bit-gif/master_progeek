@@ -122,13 +122,9 @@
 
     #derecha{
         width: 250px;
-        height: 650px;
+        height: 3000px;
         background-color: hsl(180, 90%, 35%);
         margin-top: -92px;
-        position: -webkit-sticky;  
-        position: sticky;
-        top: 0;
-        bottom: 0px; 
     }
 
     
@@ -152,7 +148,7 @@
     height: 370px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: -525px 295px 50px;
+    margin: -2890px 295px 50px;
     padding: 4px;
   }
 
@@ -248,7 +244,7 @@
 
   .copy
 {
-    margin-top: 100px;
+    margin-top: 87px;
     font-size: 25px;
     text-align: center;
     background-color: black;
@@ -268,4 +264,127 @@
     margin-top: -140px;
     margin-left: 100px;
     font-size: 90px;
+}
+
+hr{
+  margin-left: 250px;
+}
+
+#linea{
+  margin-left: 0px;
+}
+
+#dibujo{
+  font-size: 60px;
+  color:white;
+  padding-top: 10px;
+  transform:rotate(0.1turn);
+}
+
+#dibujo2{
+  font-size: 60px;
+  color:white;
+  top: -5px;
+  transform:rotate(0.0turn);
+  position: relative;
+  left: -55px;
+}
+
+#dibujo3{
+  font-size: 60px;
+  color:white;
+  top: -50px;
+  transform:rotate(0.0turn);
+  position: relative;
+  right: -55px;
+}
+
+#dibujo4{
+  font-size: 60px;
+  color:white;
+  top: -50px;
+  transform:rotate(0.9turn);
+  position: relative;
+  left: -55px;
+}
+
+#dibujo5{
+  font-size: 60px;
+  color:white;
+  top: -50px;
+  transform:rotate(0.6turn);
+  position: relative;
+  right: -45px;
+}
+
+#dibujo6{
+  font-size: 60px;
+  color:white;
+  top: -75px;
+  transform:rotate(0.9turn);
+  position: relative;
+  left: -55px;
+}
+
+#dibujo7{
+  font-size: 60px;
+  color:white;
+  top: -85px;
+  transform:rotate(0.1turn);
+  position: relative;
+  right: -45px;
+}
+
+#dibujo8{
+  font-size: 60px;
+  color:white;
+  top: -85px;
+  transform:rotate(0.9turn);
+  position: relative;
+  left: -45px;
+}
+
+#dibujo9{
+  font-size: 60px;
+  color:white;
+  top: -85px;
+  transform:rotate(0.0turn);
+  position: relative;
+  right: -45px;
+}
+
+#dibujo10{
+  font-size: 60px;
+  color:white;
+  top: -105px;
+  transform:rotate(0.9turn);
+  position: relative;
+  left: -65px;
+}
+
+#dibujo11{
+  font-size: 60px;
+  color:white;
+  top: -105px;
+  transform:rotate(0.1turn);
+  position: relative;
+  right: -45px;
+}
+
+#dibujo12{
+  font-size: 60px;
+  color:white;
+  top: -105px;
+  transform:rotate(0.0turn);
+  position: relative;
+  left: -45px;
+}
+
+#dibujo13{
+  font-size: 80px;
+  color:rgb(224, 203, 203);
+  top: -70px;
+  transform:rotate(0.35turn);
+  position: relative;
+  right: -5px;
 }

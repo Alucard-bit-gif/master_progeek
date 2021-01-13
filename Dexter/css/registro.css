@@ -1,0 +1,200 @@
+* { margin: 0; 
+    padding: 0; 
+  border: 0;
+  }
+  
+  #header
+  {
+    background-color: #000000; 
+    margin-right: 100px;
+    margin-left: -10px;
+  }
+
+  #header-img {
+    position: relative;
+    top: 15px;
+    bottom: 1px;
+    left:1200px;
+  }
+
+  .general{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    
+}
+
+.general2 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: inline;
+    margin:15px;
+}
+
+.general2:hover {
+  color: hsl(187, 86%, 48%);
+}
+
+.inicio,  .nosotros, .proyectos, .blog, .contacto
+{
+  color:hsl(187, 86%, 48%);
+}
+
+
+  a:link {
+    font-size:20px;
+    color:hsl(187, 86%, 48%);
+    text-decoration:none;
+}
+  
+  p{
+  padding: 20px 0px 0px 30px;
+  font-size: 20px;
+  font-family: Arial;
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.7),
+        rgba(131, 131, 173, 0.7)
+      ),
+   url("https://colegiocuernavaca.edu.mx/wp-content/uploads/2020/09/Geek.jpg")  ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  #title{
+  color: #ffffff;
+  font-family: Arial;
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+  padding: 25px 0px 0px 0px;
+  
+  }
+  
+  #description
+  {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style:italic;
+    margin-top: -8px;
+  }
+  
+  .form-geek
+  {
+  background-color: rgba(5, 5, 32, 0.8);
+  margin: 50px 300px 50px 300px;
+  border-width: 0px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 5px;
+  height: 1550px;
+  font-family: arial;
+  color: #ffffff;
+  padding-top: 50px;
+  }
+  
+  
+  .usergeek
+  {
+    margin-left: 40px;  
+  }
+  
+  
+  #name
+  {
+    margin: 0px 50px 50px 40px;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 8px;
+  }
+  
+  #email
+  {
+    margin: 0px 50px 50px 40px;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 8px;
+  }
+  
+  #number
+  {
+    margin: 0px 50px 50px 40px;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 8px;
+  }
+  
+  #source-geek
+  {
+    margin: 0px 10px 15px 40px;
+    border-radius: 5px;
+    font-size: 0px;
+    padding-left: 1px;
+  }
+  
+  .temasgeek
+  {
+  padding-top: 15px;
+  }
+  
+  #dropdown
+  {
+    margin: 0px 50px 50px 40px;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 8px;
+  }
+  
+  #projects
+    {margin: 0px 0px 0px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    }
+  
+    .comentgeek
+    {
+      margin: 40px 40px 0px 0px;
+      font-size: 17px;
+      padding-left: 0px;
+    }
+  
+  .sugerencia
+  {
+  margin-left: 40px;
+  margin-bottom: 35px;
+  border-radius: 2px;
+  padding: 8px 0px 0px 8px;
+  font-family: arial;
+  }
+  
+  #submit
+  {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  width: 649px;
+  height: 45px;
+  margin-left: 40px;
+  background-color: #328b39;
+  }

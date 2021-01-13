@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Geek</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/registro.css"/> 
+  </head>
+  <header id="header">
+    <img id="header-img"
+            src="images/AcademiaGeek.png"
+            width=160; height=85 alt="Logo Academia" />
+        <div class="general">
+            <ul class="general2">
+                <li>
+                    <a class="inicio" href="index.html">INICIO</a>
+                </li>
+                <li>
+                    <a class="nosotros" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li>
+                    <a class="proyectos" href="proyectos.html">PROYECTOS</a>
+                </li>
+                <li>
+                    <a class="blog" href="blog.html">BLOG</a>
+                </li>
+                <li>
+                    <a class="contacto" href="contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </div>
+  </header>
+
+  <body> 
+   <h1 id="title">Formulario de Inscripción <br> Ser + Capaces</h1>
+   <p id= "description"><b>Gracias por tomarse el tiempo para registrarse al curso virtual Geek</b></p>
+    
+   <form id = "survey form">
+    <div class= "form-geek">
+      <div class= "nombre">
+      <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Nombre completo</strong> 
+      </label>
+      </div> <br>
+      <input type="text" id="name" placeholder=" Ingrese su nombre" required>
+      <div class= "correo">
+      <label for="correo-usuario" class="usergeek" id="email-label"><strong>Correo electrónico</strong> 
+      </label>
+      </div> <br>
+      <input type="email" id="email" placeholder=" Ingrese su email" required>
+      <div class= "fecha">
+          <label for="fecha-usuario" class="usergeek"><strong>Fecha nacimiento</strong> 
+          </label>
+          </div> <br>
+          <input type="date" id="name" placeholder= "" required>
+      <div class= "nivelgeek">
+          <label for="nivel-geek" class="usergeek"><strong>Nivel de formación Geek</strong> 
+          </label>
+          </div> <br>
+          <select name="formación" id="name" size="1" required>
+              <option value="pre">Pre-Junior</option>
+              <option value="junior">Junior</option>
+              <option value="semi">Semi-Senior</option>
+              <option value="senior">Senior</option>
+              <option value="pro">Senior-Pro</option>
+          </select>
+          <div class= "expert">
+              <label for="expert-usuario" class="usergeek" id="number-label"><strong>Años de experiencia</strong> 
+              </label>
+              </div> <br>
+              <input type="number" id="number" name="cantidad" min="1" max="10">
+              <div class= "sourcegeek">
+                <label for="source-geek" class="usergeek"><strong>¿Cómo se entero de Academia Geek?</strong> 
+                </label>
+                </div> <br>
+                <input id="source-geek" type="radio" name="s-info" value="geek">
+                <label for="newbie">TV/ Radio/ Prensa</label><br>
+                <input id="source-geek" type="radio" name="s-info" value="geek">
+                <label for="newbie">Email/ Página web</label><br>
+                <input id="source-geek" type="radio" name="s-info" value="geek">
+                <label for="newbie">App Alcaldía de Medellín</label><br>
+                <input id="source-geek" type="radio" name="s-info" value="geek">
+                <label for="newbie">Ruta N/ Access/ Makaia</label><br>
+                <input id="source-geek" type="radio" name="s-info" value="geek">
+                <label for="newbie">Recomendación personal</label><br>
+                <br>
+               <div class= "temasgeek"> 
+                <label for="temas-geek" class="usergeek"><strong>Elija el editor de texto de su preferencia </strong> 
+                </label>
+                </div> <br>
+                <select name="temas" id="dropdown" size="1" required>
+                    <option value="atom">Atom</option>
+                    <option value="visual">Visual Studio</option>
+                    <option value="pen">Codepen</option>
+                    <option value="box">Codesandbox</option>
+                    <option value="phyton">Phyton</option>
+                </select>
+              <br>
+              <div id="projects">
+              <fieldset> 
+              <legend>Seleccione los contenidos favoritos</legend><br>
+              <input id="frontend" type="checkbox" name="matter" value="frontend">
+              <label for="frontend">Proyectos Front-End</label><br>
+              <input id="backend" type="checkbox" name="matter" value="backend">
+              <label for="backend">Proyectos Back-End</label><br>
+              <input id="datos" type="checkbox" name="matter" value="datos">
+              <label for="datos">Estudio de Datos</label><br>
+              <input id="lab" type="checkbox" name="matter" value="lab">
+              <label for="lab">Laboratorios</label><br>
+              <input id="codigos" type="checkbox" name="matter" value="codigos">
+              <label for="codigos">JavaScript/ CSS3/ HTML5</label><br>
+              </fieldset>
+              </div>
+              
+              <div class= "comentgeek"> 
+                  <label for="coment-geek" class="usergeek" required><strong>Escriba algún comentario o recomendación</strong> 
+                  </label>
+                  </div> <br>
+                  <textarea name="textarea" rows="10" cols="89" class= "sugerencia">Escriba algo aqui</textarea>
+                  <button type= "submit" id="submit">Enviar Registro</button>
+                </div> 
+            
+
+   </form>
+
+   
+
+  </body>
+
+</html>

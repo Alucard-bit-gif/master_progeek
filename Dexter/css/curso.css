@@ -32,9 +32,14 @@
         
     }
 
+    .general:hover{
+        color:hsl(187, 86%, 48%);
+    }
+
     a:link {
         font-size:20px;
         text-decoration:none;
+        color:hsl(187, 86%, 48%);
     }  
 
     .cont    
@@ -57,7 +62,6 @@
     margin-top: -8px;
     height: 400px;
     padding-top: 60px;
-
 }       
 
 .intro{

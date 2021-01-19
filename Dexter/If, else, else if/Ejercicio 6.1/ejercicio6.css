@@ -1,0 +1,61 @@
+body{
+    background-color: lightgrey;
+}
+
+#titulo{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Horas{
+    display: block;
+    text-align: center;    
+}
+
+#Horas label{
+    font-size: 20px;
+}
+
+#Boton{
+    background-color: red;
+    display: block;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#ValorSalario{
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 20px auto;
+    border: 2 px solid white;
+    padding: 20px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.campo{
+    display: block;
+    margin: 0 auto;
+}
+
+#NombreHermano{
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 20px auto;
+    border: 2 px solid white;
+    padding: 20px;
+    font-size: 20px;
+    width: 20%;
+}
+
+.Etapa{
+    text-align: center;
+}

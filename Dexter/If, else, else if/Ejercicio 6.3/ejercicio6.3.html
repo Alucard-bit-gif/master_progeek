@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio6.3.css">
+    <title>Ejercicio6.3</title>
+</head>
+<body>
+    <div id= "mayorSalario">
+        <h1>¿Quién obtiene mayor ingreso neto? </h1>
+    </div>
+<section id= "Delta">
+    <div id= "workerOne">
+      <h3>Trabajador Delta</h3>
+  </div>
+    <div id= "Nombre">
+      <div>
+          <label for="">Nombre</label><br>
+          <input type="text" id= "nameOne">        
+      </div>
+  </div>
+    <div id= "SalarioMes">
+        <div>
+            <label for="">Ingrese Salario Bruto</label>
+            <input type="text" id= "salarioA">  <br>   
+        </div>
+    </div>
+    <div id= "Deducciones">
+      <div>
+          <label for="">Deducciones salud y pensión</label>
+          <input type="text" id= "moneyLess">
+      </div>
+  </div>
+  <div id= "Bonificaciones">
+    <div>
+        <label for="">Bonificaciones</label>
+        <input type="text" id= "moneyMore">
+    </div>
+  </div>
+</section>
+<section id= "Gama">
+  <div id= "workerTwo">
+    <h3>Trabajador Gama</h3>
+  </div>
+  <div id= "Nombre">
+    <div>
+        <label for="">Nombre</label><br>
+        <input type="text" id= "nameTwo">        
+    </div>
+  </div>
+  <div id= "SalarioMes">
+      <div>
+          <label for="">Ingrese Salario Bruto</label>
+          <input type="text" id= "salarioB">  <br>   
+      </div>
+  </div>
+  <div id= "Deducciones">
+    <div>
+        <label for="">Deducciones salud y pensión</label>
+        <input type="text" id= "moneyLess2">
+    </div>
+  </div>
+  <div id= "Bonificaciones">
+  <div>
+      <label for="">Bonificaciones</label>
+      <input type="text" id= "moneyMore2">
+  </div>
+  </div>
+</section>
+  
+<button id= "Boton" onclick="mayorIngreso()">Calcular</button>
+  
+    <div id= "salarioNeto">
+        <h2>El trabajador con mayor salario neto es</h2>
+        <input type= text id= "ValorTotal" class= "campo">
+    </div>
+    <hr>
+     <script src="ejercicio6.3.js"></script>
+
+
+</body>
+</html>

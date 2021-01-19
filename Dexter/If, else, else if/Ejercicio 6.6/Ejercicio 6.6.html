@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio 6.6.css">
+    <title>Ejercicio6.6</title>
+</head>
+
+<header>
+    <div>
+      <p>Academia Geek</p>
+    </div>
+</header>
+
+<body>
+    <div id= "mayorDinero">
+        <h1>Contrato Temporal o Fijo</h1>
+    </div>
+
+    <section id = "survey-form">
+        <div class= "form-geek">
+          <div class= "nombre">
+          <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Nombre del colaborador</strong> 
+          </label>
+          </div> <br>
+          <input type="text" id="nameOne" placeholder="Ingresar nombre">
+          <br><br>
+          <div class= "nivelgeek">
+            <label for="nivel-geek" class="usergeek"><strong>Tipo de Contrato</strong> 
+            </label>
+            </div> <br>
+            <select name="tipo" id="fijoTemporal" size="1">
+                <option type="text">
+                <option value="fijo">Fijo</option>
+                <option value="temporal">Temporal</option>
+            </select>
+            <div class= "nombre">
+                <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Horas laboradas</strong> 
+                </label>
+                </div> <br>
+                <input type="number" id="number" min= "60" max= "240" placeholder="entre 60 y 240 horas">
+                <div class= "nombre">
+                <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Valor Hora</strong> 
+                </label>
+                </div> <br>
+                <input type="text" id="name" placeholder="$6000">
+                <div class= "nombre">
+                    <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Salario bruto</strong> 
+                    </label>
+                    </div> <br>
+                    <input type="text" id="salarioBruto" placeholder="">        
+                <div class= "nombre">
+                    <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Total deducciones</strong> 
+                    </label>
+                    </div> <br>
+                    <input type="text" id="totalDeducciones" placeholder= "8% salario bruto">    
+                <div class= "nombre">
+                <label for="nombre-usuario" class="usergeek" id="name-label"><strong>Total Bonificaciones</strong> 
+                </label>
+                </div> <br>
+                <input type="text" id="totalBonos" placeholder="30% salario bruto">  
+                
+                <button id= "Boton" onclick="Registrar()">Registrar datos</button>
+
+                <button id= "BotonC" onclick="Calcular()">Calcular</button>
+        </div>
+    </section>
+         <div id= "resultado">
+            <h1 id= "empleado">👑</h1>
+            <h2 id= "empleado2"></h2>
+            <h1 id= "pesos">🎇</h1><br><br>
+            <h2 id= "pesos2"></h2>
+         </div>
+
+         <script src="ejercicio 6.6.js"></script>
+
+
+</body>
+</html>

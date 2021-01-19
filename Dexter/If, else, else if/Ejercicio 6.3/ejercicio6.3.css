@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(114, 233, 241);
+}
+
+#mayorSalario{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#workerOne, #workerTwo{
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#Delta{
+    float:left;
+    border-style: dotted;
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 0px auto;
+    border: 2 px solid white;
+    padding-bottom: 50px;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 200px;
+}
+
+#Gama{
+    
+    float:right;
+    border-style: dotted;
+    display: block;
+    text-align: center;
+    align-content: center;
+    margin: 0px auto;
+    border: 2 px solid white;
+    padding-bottom: 50px;
+    font-size: 20px;
+    width: 20%;
+    margin-right: 200px;
+}
+
+
+#Boton{
+    background-color: rgb(18, 4, 145);
+    display: block;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 450px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#salarioNeto
+
+{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 45px;
+}

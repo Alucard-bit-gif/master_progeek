@@ -1,29 +1,27 @@
 * { margin: 0; 
-    padding: 0; } 
+    padding: 0;
+  border:0; } 
 
     #header {
         
-      background-color: #000000; 
+      background-color: #000000;
+      height: 115px;
+      width: 100%; 
        
-        
-  
     }
      
-    
-
-
     #header-img {
         position: relative;
         top: 15px;
         bottom: 1px;
-        left:1100px;
+        right:-1170px;
+        border-radius: 5px;
     }
     
     .general{
         position: relative;
         bottom: 45px;
-        left: 70px;
-        
+        left: 0px;  
         
     }
 
@@ -35,7 +33,7 @@
     .general2 li {
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         display: inline;
-        margin:15px;
+        margin:25px;
         
     }
 

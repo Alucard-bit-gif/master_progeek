@@ -1,0 +1,129 @@
+* { margin: 0; 
+    padding: 0; } 
+
+    #header {
+      background-color: #000000;
+      margin-right: 90px;
+      margin-left: 0px;
+      width: 100%; 
+    }
+     
+    #header-img {
+        position: relative;
+        top: 15px;
+        bottom: 1px;
+        right:-1150px;
+    }
+    
+    .general{
+        position: relative;
+        bottom: 45px;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .inicio, .nosotros, .proyectos, .blog, .contacto
+    {
+        color:hsl(187, 87%, 48%);
+    }
+
+    .general2 li {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        display: inline;
+        margin:15px;
+        
+    }
+
+    .general:hover{
+        color:hsl(187, 86%, 48%);
+    }
+
+    a:link {
+        font-size:20px;
+        text-decoration:none;
+        color:hsl(187, 86%, 48%);
+    }
+
+    .cont    
+       {
+           background-image: url('https://wallpaperaccess.com/full/1828697.jpg');
+           margin-top: -20px;
+           padding-top: 20px;
+           padding-bottom: 15px;
+       }
+
+    h2
+       {
+        color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bolder;
+       } 
+
+#funcion{
+    background-image: url('https://cdn3.josefacchin.com/wp-content/uploads/2019/02/descargar-vectores-gratis.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+
+embed{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.temaDos{
+    margin-top: 0px;
+    margin-left: 280px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+#temas{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.btn{
+    padding-top: 15px;
+    margin-bottom: 35px;
+    font-weight: bolder;
+    font-size: 25px;
+    height: 75px;
+}
+
+.emojis{
+    font-size: 50px;
+    margin-top: -50px;
+    text-align: left;
+    margin-left: 90px;
+}
+    
+.copy
+{
+    margin-top: 0px;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+
+.copy-text
+{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.warning{
+    text-align: left;
+    margin-top: -175px;
+    margin-left: 100px;
+    font-size: 90px;
+}

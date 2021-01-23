@@ -84,9 +84,9 @@ function Calcular()
         document.getElementById('nombre').value= nameMenor;
     }
 
-    /*else{
+    else{
         alert('Inserta la edad correcta');
-    }*/
+    }
  }
 
 //------------------------------------------------------------------------------------------------------------> 

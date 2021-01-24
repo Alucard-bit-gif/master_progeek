@@ -237,6 +237,24 @@
        bottom: 240px;
      }
 
+     .tareas{
+       text-align: center;
+     }
+
+     #Boton{
+      background-color: rgb(6, 197, 24);
+      display: inline;
+      color: white;
+      text-align: center;
+      align-content: center;
+      margin: 0 auto;
+      margin-top: 20px;
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 3px;
+      font-weight: bolder;
+  }
+
      .copy
 {
     margin-top: 100px;

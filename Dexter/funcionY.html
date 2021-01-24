@@ -1,269 +1,311 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/funcionY.css"/> 
-    <title> 📟 NovaClone </title>
-  </head>
-  <header id="header">
-    <img
-      id="header-img"
-      src="images/SociosGeek.png" width=160; 
-      height=85
-      alt="Logo Academia"
-    />
-    <div class= "general">
-        <ul class= "general2">
-            <li>
-                <a class="inicio" href="index.html">INICIO</a>
-            </li>
-            <li>
-                <a class= "nosotros" href="nosotros.html">NOSOTROS</a>
-            </li>
-            <li>
-                <a class= "proyectos" href="proyectos.html">PROYECTOS</a>
-            </li>
-            <li>
-                <a class= "blog" href="blog.html">BLOG</a>
-            </li>
-            <li>
-                <a class= "contacto" href="contacto.html">CONTACTO</a>
-            </li>
-        </ul>    
-    </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/funcionY.css" />
+  <title> 📟 NovaClone </title>
+</head>
+<header id="header">
+  <img id="header-img" src="images/SociosGeek.png" width=160; height=85 alt="Logo Academia" />
+  <div class="general">
+    <ul class="general2">
+      <li>
+        <a class="inicio" href="index.html">INICIO</a>
+      </li>
+      <li>
+        <a class="nosotros" href="nosotros.html">NOSOTROS</a>
+      </li>
+      <li>
+        <a class="proyectos" href="proyectos.html">PROYECTOS</a>
+      </li>
+      <li>
+        <a class="blog" href="blog.html">BLOG</a>
+      </li>
+      <li>
+        <a class="contacto" href="contacto.html">CONTACTO</a>
+      </li>
+    </ul>
+  </div>
 </header>
-  <body>
-    <div>
-    <br><br>
-    <h1> Ejercicios Funciones 🎰 </h1>
-    <br><br>
-    </div>
-    <div class="row">
-      <form action= "">
-        <p class= "X">1)	Se requiere conocer el área de un rectángulo. Realice un algoritmo para tal fin. 
-                       El área del rectángulo se halla así: (base*altura)</p><br>
-        <input type="text" id="base"><p class="xi">Ingresa la Base del rectángulo</p><br>
-        <input type="text" id="altura"><p class="xi">Ingresa la Altura del rectángulo</p>
-        <button id= "Boton" type= "button" class= "btn btn-success" onclick="Calcular()">Calcular</button>
-        <br><br>
-        <input class= "area" type= "text" id="totalarea">
-      </form>
-     </div>
 
-     <div class="row2">
-      <form action= "">
-        <p class= "X2">2)	Se requiere obtener el área de una circunferencia. Realizar el algoritmo correspondiente. 
-                          El área de la circunferencia se halla así: PI * R2 o
-                          también PI * R *R RECUERDE QUE PI=3.1416</p><br>
-        <input type="text" id="radio"><p class="yi">Ingresa el valor del radio</p><br>
-        <button id= "Boton" type= "button" class= "btn btn-primary" onclick="CalcularA()">Calcular</button>
-        <br><br>
-        <input class= "area2" type= "text" id="totalarea2"><br>
-      </form>
-     </div>
-     <br>
-     <hr>
-     <div class="row3">
-      <form action= "">
-        <p class= "X3"></p>3)	De un triángulo se tiene la longitud de la base y la longitud de la altura. 
-                          Determine el valor de su área. El área del triángulo se halla así: (base*altura)/2<br><br>
-        <input type="text" id="base1"><p class="zi">Ingresa valor base del triángulo</p><br>
-        <input type="text" id="altura1"><p class="zi">Ingresa valor altura del triángulo</p><br>
-        <button id= "Boton" type= "button" class= "btn btn-warning" onclick="CalcularB()">Calcular</button>
-        <br><br>
-        <input class= "area3" type= "text" id="totalarea3"><br><br>
-      </form>
-     </div>
-<br>
-<hr>
-<div class="row4">
-  <form action= "">
-    <p class= "X4">4)	Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. 
-                  Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella 
-                  generalmente las tiene en metros. Realice un algoritmo para ayudar a resolver el 
-                  problema, determinando cuántas pulgadas debe pedir con base en los metros que requiere. 
-                  (1 pulgada = 0.0254 m).</p><br>
-    <input type="text" id="metros"><p class="alfa">Ingresa número de metros</p><br>
-    <button id= "Boton" type= "button" class= "btn btn-danger" onclick="CalcularC()">Calcular</button>
+<body>
+  <div>
     <br><br>
-    <input class= "area4" type= "text" id="totalarea4"><br>
-  </form>
- </div>
+    <h1> 2. Funciones</h1><img class="madlab" src="images/funcionUno.png" ; width=300; height="200" alt="Icono" />
+    <br><br>
+  </div>
 
- <br><br>
- <div class="row5">
-   <form action= "">
-     <p class= "X5">5)	Un estacionamiento requiere determinar el cobro que debe aplicar a las personas que
-                    lo utilizan. Considere que el cobro es con base en las horas que lo disponen y que las 
-                    fracciones de hora se toman como completas. Realizar el algoritmo que permita determinar 
-                    el cobro.</p><br>
-     <input type="text"  id="precio"><p class= "valor">Estacionamiento Valor/hora</p><br>
-     <input type="text" id="horas"><p class="beta">Ingrese Horas</p><br>
-     <input type="text" id="mints"><p class="zeta">Ingrese Minutos</p><br>
-     <button id= "Boton" type= "button" class= "btn btn-secondary" onclick="CalcularD()">Calcular</button>
-     <br><br>
-     <p class="X60">Valor a pagar</p> 
-     <input class= "area5" type= "text" id="totalarea5"><br>
-   </form>
+  <div class="practica">
+  <h2>Ejercicios</h2>
+</div>
+
+  <div class="algor">
+    <p>Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en
+      JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o
+      calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada
+      y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una
+      función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.</p>
+    <br>
+    <p>CARACTERÍSTICAS DE LAS FUNCIONES</p>
+    <br>
+    <p> 1. Una definición de función (también denominada declaración de función o expresión de función)
+      consta de la palabra clave function, seguida de:<br>
+      2. El nombre de la función.<br>
+      3. Una lista de parámetros de la función, entre paréntesis y separados por comas.<br>
+      4. Las declaraciones de JavaScript que definen la función, encerradas entre llaves, { ... }.
+    </p>
+  </div>
+
+  <div class="row">
+    <form action="">
+      <p class="X">1) Se requiere conocer el área de un rectángulo. Realice un algoritmo para tal fin.
+        El área del rectángulo se halla así: (base*altura)</p><br>
+      <input type="text" id="base">
+      <p class="xi">Ingresa la Base del rectángulo</p><br>
+      <input type="text" id="altura">
+      <p class="xi">Ingresa la Altura del rectángulo</p>
+      <button id="Boton" type="button" class="btn btn-success" onclick="Calcular()">Calcular</button>
+      <br><br>
+      <input class="area" type="text" id="totalarea">
+    </form>
+  </div>
+
+  <div class="row2">
+    <form action="">
+      <p class="X2">2) Se requiere obtener el área de una circunferencia. Realizar el algoritmo correspondiente.
+        El área de la circunferencia se halla así: PI * R2 o
+        también PI * R *R RECUERDE QUE PI=3.1416</p><br>
+      <input type="text" id="radio">
+      <p class="yi">Ingresa el valor del radio</p><br>
+      <button id="Boton" type="button" class="btn btn-primary" onclick="CalcularA()">Calcular</button>
+      <br><br>
+      <input class="area2" type="text" id="totalarea2"><br>
+    </form>
+  </div>
+  <br>
+  <hr>
+  <div class="row3">
+    <form action="">
+      <p class="X3"></p>3) De un triángulo se tiene la longitud de la base y la longitud de la altura.
+      Determine el valor de su área. El área del triángulo se halla así: (base*altura)/2<br><br>
+      <input type="text" id="base1">
+      <p class="zi">Ingresa valor base del triángulo</p><br>
+      <input type="text" id="altura1">
+      <p class="zi">Ingresa valor altura del triángulo</p><br>
+      <button id="Boton" type="button" class="btn btn-warning" onclick="CalcularB()">Calcular</button>
+      <br><br>
+      <input class="area3" type="text" id="totalarea3"><br><br>
+    </form>
+  </div>
+  <br>
+  <hr>
+  <div class="row4">
+    <form action="">
+      <p class="X4">4) Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
+        Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella
+        generalmente las tiene en metros. Realice un algoritmo para ayudar a resolver el
+        problema, determinando cuántas pulgadas debe pedir con base en los metros que requiere.
+        (1 pulgada = 0.0254 m).</p><br>
+      <input type="text" id="metros">
+      <p class="alfa">Ingresa número de metros</p><br>
+      <button id="Boton" type="button" class="btn btn-danger" onclick="CalcularC()">Calcular</button>
+      <br><br>
+      <input class="area4" type="text" id="totalarea4"><br>
+    </form>
+  </div>
+
+  <br><br>
+  <div class="row5">
+    <form action="">
+      <p class="X5">5) Un estacionamiento requiere determinar el cobro que debe aplicar a las personas que
+        lo utilizan. Considere que el cobro es con base en las horas que lo disponen y que las
+        fracciones de hora se toman como completas. Realizar el algoritmo que permita determinar
+        el cobro.</p><br>
+      <input type="text" id="precio">
+      <p class="valor">Estacionamiento Valor/hora</p><br>
+      <input type="text" id="horas">
+      <p class="beta">Ingrese Horas</p><br>
+      <input type="text" id="mints">
+      <p class="zeta">Ingrese Minutos</p><br>
+      <button id="Boton" type="button" class="btn btn-secondary" onclick="CalcularD()">Calcular</button>
+      <br><br>
+      <p class="X60">Valor a pagar</p>
+      <input class="area5" type="text" id="totalarea5"><br>
+    </form>
   </div>
 
   <div class="row6">
-    <form action= "">
-      <p class= "X6">6)	Un amigo suyo acaba de iniciar un negocio de venta de zapatos. 
-                     Por ahora sólo vende tres tipos de zapatos: sandalias, tenis y mocasines. 
-                     Cada tipo de zapato lo adquiere a un costo distinto y para venderlos, supone 
-                     una ganancia del 55%. Cuando un cliente llega debe comprar de los tres tipos 
-                     de zapatos y la cantidad que desee de cada uno de ellos (si o si el cliente 
-                     siempre compra los 3 tipos de zapatos). El cliente tiene derecho a un 8% de 
-                     descuento sobre la compra que realiza. Ayúdele a su amigo a crear un programa 
-                     que, para un cliente dado, muestre su nombre, el valor de la venta sin descuento, 
-                     el descuento, valor de la venta con descuento y valor de la venta incluyendo IVA 
-                     (venta neta final)</p><br>
-                      <p class= "usuario">Cliente</p><input type="text"  id="user">
-                      <p class= "qsandias">Sandalias</p><input type="text"  id="sandia">
-                      <p class="qtenis">Tenis</p><input type="text" id="tenis">
-                      <p class="qmocas">Mocasines</p><input type="text" id="mocas">
-                      <button id= "Boton" type= "button" class= "btn btn-success" onclick="CalcularG()">Calcular</button>
-                      <br><br>
-                      <p class="X61">Orden de Compra</p> 
-                      <textarea name="comentarios" rows="5" cols="20" id= "factura"></textarea>
-      </form>
-   </div> 
-   <br>
-   <hr>
-   <div class="row7">
-    <form action= "">
-      <p class= "X7">7)	Un productor de leche lleva el registro de lo que produce en litros, pero cuando 
-                        entrega le pagan en galones. Realice un algoritmo que ayude al productor a saber 
-                        cuánto recibirá por la entrega de su producción de un día (1 galón = 3.785 litros).</p><br>
-      <p class= "litros">Cantidad Litros</p><input type="text"  id="cubicos"><br><br>
-      <p class= "pGalon">Precio Galon</p><input type="text"  id="galon7"><br><br><br>
-      <button id= "Boton7" type= "button" class= "btn btn-dark" onclick="proyectarF()">Calcular</button>
+    <form action="">
+      <p class="X6">6) Un amigo suyo acaba de iniciar un negocio de venta de zapatos.
+        Por ahora sólo vende tres tipos de zapatos: sandalias, tenis y mocasines.
+        Cada tipo de zapato lo adquiere a un costo distinto y para venderlos, supone
+        una ganancia del 55%. Cuando un cliente llega debe comprar de los tres tipos
+        de zapatos y la cantidad que desee de cada uno de ellos (si o si el cliente
+        siempre compra los 3 tipos de zapatos). El cliente tiene derecho a un 8% de
+        descuento sobre la compra que realiza. Ayúdele a su amigo a crear un programa
+        que, para un cliente dado, muestre su nombre, el valor de la venta sin descuento,
+        el descuento, valor de la venta con descuento y valor de la venta incluyendo IVA
+        (venta neta final)</p><br>
+      <p class="usuario">Cliente</p><input type="text" id="user">
+      <p class="qsandias">Sandalias</p><input type="text" id="sandia">
+      <p class="qtenis">Tenis</p><input type="text" id="tenis">
+      <p class="qmocas">Mocasines</p><input type="text" id="mocas">
+      <button id="Boton" type="button" class="btn btn-success" onclick="CalcularG()">Calcular</button>
+      <br><br>
+      <p class="X61">Orden de Compra</p>
+      <textarea name="comentarios" rows="5" cols="20" id="factura"></textarea>
+    </form>
+  </div>
+  <br>
+  <hr>
+  <div class="row7">
+    <form action="">
+      <p class="X7">7) Un productor de leche lleva el registro de lo que produce en litros, pero cuando
+        entrega le pagan en galones. Realice un algoritmo que ayude al productor a saber
+        cuánto recibirá por la entrega de su producción de un día (1 galón = 3.785 litros).</p><br>
+      <p class="litros">Cantidad Litros</p><input type="text" id="cubicos"><br><br>
+      <p class="pGalon">Precio Galon</p><input type="text" id="galon7"><br><br><br>
+      <button id="Boton7" type="button" class="btn btn-dark" onclick="proyectarF()">Calcular</button>
       <br><br>
       <p class="X77">Venta Galones</p>
-      <input class= "area7" type= "text" id="totalarea7"><br> 
+      <input class="area7" type="text" id="totalarea7"><br>
     </form>
-   </div>
-   <img id= "GeekBack" src="https://image.shutterstock.com/image-vector/template-blue-parking-logo-icon-600w-1715470075.jpg" 
-        width="300px"  height="300px" alt = "car">    
-   
-        <div class="row8">
-          <form action= "">
-            <p class= "X8">8)	La compañía de autobuses “La curva loca” requiere determinar el costo que tendrá el 
-                           boleto de un viaje sencillo, esto basado en los kilómetros por recorrer y en el costo 
-                           por kilómetro.</p><br>
-            <p class= "kilom">Número Kilómetros</p><input type="text"  id="distn"><br><br>
-            <p class= "Costok">Costo por kilómetro</p><input type="text"  id="precioK"><br><br><br>
-            <button id= "Boton" type= "button" class= "btn btn-outline-primary" onclick="CalcularH()">Calcular</button>
-            <br><br>
-            <p class="X88"></p>
-            <input class= "area8" type= "text" id="totalarea8"><br><br><br> 
-          </form>
-         </div>
-         <hr>   
+  </div>
+  <img id="GeekBack"
+    src="https://image.shutterstock.com/image-vector/template-blue-parking-logo-icon-600w-1715470075.jpg" width="300px"
+    height="300px" alt="car">
 
-         <div class="row9">
-          <form action= "">
-            <p class= "X9">9)	Se requiere determinar el tiempo que tarda una persona en llegar de una ciudad a 
-                           otra en bicicleta, considerando que lleva una velocidad constante</p><br>
-            <p class= "kilomt">Número Kilómetros</p><input type="text"  id="distance"><br><br>
-            <p class= "velozK">Velocidad Constante</p><input type="text"  id="speed"><br><br>
-            <button id= "Boton" type= "button" class= "btn btn-outline-success" onclick="CalcularI()">Calcular</button>
-            <br><br>
-            <p class="X99">Tiempo trayectoria</p>
-            <input class= "area9" type= "text" id="totalarea9"><br><br><br> 
-          </form>
-         </div>
-         <hr>  
-         <div class="row10">
-          <form action= "">
-            <p class= "X10">10)	 Se requiere determinar el costo que tendrá realizar una llamada telefónica con base 
-                                 en el tiempo que dura la llamada y en el costo por minuto</p><br>
-            <p class= "celminutes">Número Minutos</p><input type="text"  id="twominutes"><br><br>
-            <p class= "costminutes">Costo x Minuto</p><input type="text"  id="tomidnight"><br><br>
-            <button id= "Boton" type= "button" class= "btn btn-outline-danger" onclick="CalcularJ()">Calcular</button>
-            <br><br>
-            <p class="X100">Valor a pagar</p>
-            <input class= "area10" type= "text" id="totalarea10"><br><br><br> 
-          </form>
-         </div> 
-         <div class="row11">
-          <form action= "">
-            <p class= "X11">11) La compañía de luz y sombras (CLS) requiere determinar el pago que debe realizar una persona 
-                            por el consumo de energía eléctrica, la cual se mide en kilowatts (KW).</p><br>
-            <p class= "kilovatios">Consumo Kilovatios</p><input type="text"  id="kilowatts"><br><br>
-            <p class= "valor_kw">Valor/Kw</p><input type="text"  id="costwatts"><br><br>
-            <button id= "Boton" type= "button" class= "btn btn-outline-warning" onclick="CalcularK()">Calcular</button>
-            <br><br>
-            <p class="X111">Valor a pagar</p>
-            <input class= "area11" type= "text" id="totalarea11"><br><br><br>
-             
-          </form>
-         </div> 
-         <hr>
-         <div class="row12">
-          <form action= "">
-            <p class= "X12"> 12) Determinar cuánto pagará finalmente una persona por un artículo equis, 
-                             considerando que tiene un descuento de 20%, y debe pagar 19% de IVA 
-                             (debe mostrar el precio con descuento y el precio final).</p><br>
-            <p class= "chemicalX">Precio Sustancia X</p><input type="text"  id="SuperX"><br><br>
-            <p class= "precioDesc">Precio con Descuento</p><input type="text"  id="PriceX"><br><br>
-            <button id= "Boton" type= "button" class= "btn btn-outline-secondary" onclick="CalcularL()">Calcular</button>
-            <br><br>
-            <p class="X122">Precio Final</p>
-            <input class= "area12" type= "text" id="totalarea12"><br><br>
-          </form>
-         </div> 
+  <div class="row8">
+    <form action="">
+      <p class="X8">8) La compañía de autobuses “La curva loca” requiere determinar el costo que tendrá el
+        boleto de un viaje sencillo, esto basado en los kilómetros por recorrer y en el costo
+        por kilómetro.</p><br>
+      <p class="kilom">Número Kilómetros</p><input type="text" id="distn"><br><br>
+      <p class="Costok">Costo por kilómetro</p><input type="text" id="precioK"><br><br><br>
+      <button id="Boton" type="button" class="btn btn-outline-primary" onclick="CalcularH()">Calcular</button>
+      <br><br>
+      <p class="X88"></p>
+      <input class="area8" type="text" id="totalarea8"><br><br><br>
+    </form>
+  </div>
+  <hr>
 
-                         <div class= "row13">
-                         <p class= "X13">13) Determinar cuánto dinero ahorra una persona en un año 
-                                         si considera que cada semana ahorra 15% de su sueldo 
-                                         (considere cuatro semanas por mes y que no cambia el sueldo)</p>
-                           <img id= "Ahorro" src="https://cutewallpaper.org/21/dollar-sign-transparent-background-gif/Money-Flat-Icon.gif" 
-                           width="200px"  height="200px" alt = "Bank">
-                          </div>
-                          <div class= "X14">
-                            <h3>Ahorro Anual</h3>
-                            <p class= "salario">Ingrese su salario</p><input type="text"  id="EnterX">
-                            <br><br>
-                            <button id= "BotonX14" type= "button" class= "btn btn-primary btn-lg" onclick="CalcularX14()">Calcular</button>
-                            <br><br>
-                            <p class= "salarioX14">Su ahorro al año es de</p><input type="text"  id="EnterX14">
-                          </div>
-                          <div><br><br><br>
-                            
-                            
-                          <div class= "copy">
-                            <footer>
-                                <br>
-                                    Derechos Reservados ©️<br><br>
-                                    <p class="copy-text">El contenido del Curso Básico en Desarrollo Web<br>
-                                    pertenece exclusivamente y es de autoria de
-                                    Academia Geek y sus socios<br>
-                                    2020</p>
-                                    <p class= "warning">⚠️</p>    
-                            </footer>
-                            </div>
-                    
-                        
+  <div class="row9">
+    <form action="">
+      <p class="X9">9) Se requiere determinar el tiempo que tarda una persona en llegar de una ciudad a
+        otra en bicicleta, considerando que lleva una velocidad constante</p><br>
+      <p class="kilomt">Número Kilómetros</p><input type="text" id="distance"><br><br>
+      <p class="velozK">Velocidad Constante</p><input type="text" id="speed"><br><br>
+      <button id="Boton" type="button" class="btn btn-outline-success" onclick="CalcularI()">Calcular</button>
+      <br><br>
+      <p class="X99">Tiempo trayectoria</p>
+      <input class="area9" type="text" id="totalarea9"><br><br><br>
+    </form>
+  </div>
+  <hr>
+  <div class="row10">
+    <form action="">
+      <p class="X10">10) Se requiere determinar el costo que tendrá realizar una llamada telefónica con base
+        en el tiempo que dura la llamada y en el costo por minuto</p><br>
+      <p class="celminutes">Número Minutos</p><input type="text" id="twominutes"><br><br>
+      <p class="costminutes">Costo x Minuto</p><input type="text" id="tomidnight"><br><br>
+      <button id="Boton" type="button" class="btn btn-outline-danger" onclick="CalcularJ()">Calcular</button>
+      <br><br>
+      <p class="X100">Valor a pagar</p>
+      <input class="area10" type="text" id="totalarea10"><br><br><br>
+    </form>
+  </div>
+  <div class="row11">
+    <form action="">
+      <p class="X11">11) La compañía de luz y sombras (CLS) requiere determinar el pago que debe realizar una persona
+        por el consumo de energía eléctrica, la cual se mide en kilowatts (KW).</p><br>
+      <p class="kilovatios">Consumo Kilovatios</p><input type="text" id="kilowatts"><br><br>
+      <p class="valor_kw">Valor/Kw</p><input type="text" id="costwatts"><br><br>
+      <button id="Boton" type="button" class="btn btn-outline-warning" onclick="CalcularK()">Calcular</button>
+      <br><br>
+      <p class="X111">Valor a pagar</p>
+      <input class="area11" type="text" id="totalarea11"><br><br><br>
+
+    </form>
+  </div>
+  <hr>
+  <div class="row12">
+    <form action="">
+      <p class="X12"> 12) Determinar cuánto pagará finalmente una persona por un artículo equis,
+        considerando que tiene un descuento de 20%, y debe pagar 19% de IVA
+        (debe mostrar el precio con descuento y el precio final).</p><br>
+      <p class="chemicalX">Precio Sustancia X</p><input type="text" id="SuperX"><br><br>
+      <p class="precioDesc">Precio con Descuento</p><input type="text" id="PriceX"><br><br>
+      <button id="Boton" type="button" class="btn btn-outline-secondary" onclick="CalcularL()">Calcular</button>
+      <br><br>
+      <p class="X122">Precio Final</p>
+      <input class="area12" type="text" id="totalarea12"><br><br>
+    </form>
+  </div>
+
+  <div class="row13">
+    <p class="X13">13) Determinar cuánto dinero ahorra una persona en un año
+      si considera que cada semana ahorra 15% de su sueldo
+      (considere cuatro semanas por mes y que no cambia el sueldo)</p>
+    <img id="Ahorro" src="https://cutewallpaper.org/21/dollar-sign-transparent-background-gif/Money-Flat-Icon.gif"
+      width="200px" height="200px" alt="Bank">
+  </div>
+  <div class="X14">
+    <h3>Ahorro Anual</h3>
+    <p class="salario">Ingrese su salario</p><input type="text" id="EnterX">
+    <br><br>
+    <button id="BotonX14" type="button" class="btn btn-primary btn-lg" onclick="CalcularX14()">Calcular</button>
+    <br><br>
+    <p class="salarioX14">Su ahorro al año es de</p><input type="text" id="EnterX14">
+  </div>
+  <div><br><br><br>
+
+    <div class="tareas">
+      <a class="laboratorios" href="funcionY.html"><button id="laboratorios">2. Funciones</button></a>
+      <a class="laboratorios" href="condicionales.html"><button id="laboratorios">3. Condicionales</button></a>
+      <a class="laboratorios" href="switch.html"><button id="laboratorios">4. Switch</button></a>
+      <a class="laboratorios" href="arrays.html"><button id="laboratorios">5. Arrays</button></a>
+      <a class="laboratorios" href="ciclos.html"><button id="laboratorios">6. Ciclos</button></a>
+    </div>
+
+    <div class="copy">
+      <footer>
+        <br>
+        Derechos Reservados ©️<br><br>
+        <p class="copy-text">El contenido del Curso Básico en Desarrollo Web<br>
+          pertenece exclusivamente y es de autoria de
+          Academia Geek y sus socios<br>
+          2020</p>
+        <p class="warning">⚠️</p>
+      </footer>
+    </div>
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
-    <script src= "java_s/funcionY.js"></script>
-  </body>
+    <script src="java_s/funcionY.js"></script>
+</body>
+
 </html>
 
 

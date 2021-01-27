@@ -58,7 +58,7 @@
             rgba(235, 238, 243, 0.753),
             rgba(214, 224, 231, 0.7)
           ),
-       url("https://image.freepik.com/vector-gratis/conjunto-iconos-servicio-24-horas-dia_1017-19488.jpg"); 
+       url("https://image.freepik.com/vector-gratis/gran-reunion-familiar_74855-5220.jpg"); 
         background-size: cover;
         background-repeat: no-repeat;
         margin: 0;
@@ -97,10 +97,16 @@ p{
     font-size: 35px;
     color:#000000;
     font-weight: bolder;
+    
 }
 
+#agepeople{
+    padding-left: 10px
+}
+
+
 #Boton{
-    background-color: red;
+    background-color: rgb(20, 157, 221);
     display: block;
     color: white;
     text-align: center;
@@ -110,23 +116,9 @@ p{
     font-size: 20px;
     padding: 10px;
     font-weight: bold;
-}
-
-h3{
-    font-size:30px
-}
-
-#ValorSalario{
-    display: block;
-    text-align: center;
-    align-content: center;
-    margin: 20px auto;
-    border: 2 px solid white;
-    padding: 20px;
-    font-size: 23px;
-    width: 20%;
-    color: #000000;
-    font-weight: bolder;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px;
+    border-color: rgb(47, 102, 255);
 }
 
 .btn-toolbar{
@@ -135,6 +127,10 @@ h3{
     display: block;
     position: center;
     margin-bottom: 0px;
+}
+
+.Etapa{
+    text-align: center;
 }
 
 .copy
@@ -164,20 +160,3 @@ h3{
     margin-left: 100px;
     font-size: 90px;
 }
-
-.campo{
-    display: block;
-    margin: 0 auto;
-}
-
-#NombreHermano{
-    display: block;
-    text-align: center;
-    align-content: center;
-    margin: 20px auto;
-    border: 2 px solid white;
-    padding: 20px;
-    font-size: 20px;
-    width: 20%;
-}
-

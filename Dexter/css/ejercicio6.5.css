@@ -22,6 +22,7 @@
     font-family: Arial;
     color: #ffffff;  
     color-adjust: exact;
+    font-weight: bolder;
     }
 
   #flota {
@@ -30,6 +31,7 @@
         color: #ffffff;  
         color-adjust: exact;
         text-align: center;
+        font-weight: bolder;
         }
 
 
@@ -71,7 +73,7 @@
     text-align: center;
     margin-top: 35px;
     margin-bottom: 70px;
-    font-weight: bold;
+    font-weight: bolder;
     }
 
 #rutaUno, #rutaDos{
